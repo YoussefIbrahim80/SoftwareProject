@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+	
+	<!-- BootStrap Library & W3 School CSS -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="/Users/youssefwaheed/Desktop/Spring 22/Software Engineering/Labs/Lab 2/Project/public/Styles.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+
+<title>EBN</title>
+</head>
+
+<body style="font-family:Times New Roman; background-color:#F0F0F0;">
+
+	<!-- Empty Black Box -->
+	<div class="block"style="background-color: black; text-align: right; color:black;">
+		<p>.</p>
+		<!-- NavBar -->
+			<div>
+				<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		
+			      	 <a class="navbar-brand" href="/Users/youssefwaheed/Desktop/Spring 22/Software Engineering/Labs/Lab 2/Project/public/MainPage.html">Educational Books & Notes </a>
+				
+				   		 <ul class="navbar-nav ml-auto">
+		
+					       	<li class="nav-item">
+					   		     	<a class="navbar-brand" href="/Users/youssefwaheed/Desktop/Spring 22/Software Engineering/Labs/Lab 2/Project/public/MainPage.html">
+					                    <img src="https://cdn-icons-png.flaticon.com/512/69/69524.png?w=740" width="30" height="30" alt="Home" href = "#">
+					                </a>
+					   	   	</li>	
+					   	   	<li class="nav-item">
+					   		     	<a class="navbar-brand" href="/Users/youssefwaheed/Desktop/Spring 22/Software Engineering/Labs/Lab 2/Project/public/CartPage.html">
+					                    <img src="https://cdn-icons-png.flaticon.com/512/263/263142.png" width="30" height="30" alt="Cart" href = "https://getbootstrap.com/docs/4.1/components/navbar/">
+					                </a>
+					   	   	</li>
+					        <li class="nav-item ">
+					   		     	<a class="navbar-brand" href="/Users/youssefwaheed/Desktop/Spring 22/Software Engineering/Labs/Lab 2/Project/public/ProfilePage.html">
+					                    <img src="https://cdn.iconscout.com/icon/free/png-256/account-avatar-profile-human-man-user-30448.png" width="30" height="30" alt="Profile" href = "#">
+					                </a>
+					   	   	 </li>
+					   	   	 
+				   		 </ul>
+			   	 </nav>    
+			</div>
+	</div>
+	
+	<!-- Image with the search box -->
+	<img id = "img1" src="https://purewows3.imgix.net/images/articles/2017_12/best-books-2017-header.jpg?auto=format,compress&cs=strip"  alt="Library "width = "100%" height = "450px">
+	<div class ="container">
+			<div class="centered" style="color:white;">
+				<p style="font-size:59px;">
+					Educational Books & Notes
+				</p>
+				<p style="font-size:20px;">
+					A community made for education seekers to have a better learning experience in gathering books and notes needed.
+				</p>
+				<div class="content" style="color: black; font-family:Times New Roman;">
+					<form class="form-inline" action="/action_page.php">
+						<input type="text" placeholder="Subject..(e.g Electronics I)" name="subject">
+						<p style="color: white;">. . . . .</p>
+						  <label for="email"><b>Category:</b></label>
+						  	<select id="country" name="country">
+							    <option value="Notes">Notes</option>
+							    <option value="Books">Books</option>
+							</select>
+						<p style="color: white;">. . . . . . . .</p>
+						  <label for="email"><b>Service:</b></label>
+						  	<select id="country" name="country">
+							    <option value="Borrow">Borrow</option>
+							    <option value="Buy">Buy</option>
+							    <option value="Exchange">Exchange</option>
+							</select>
+						<p style="color: white;">. . . . . . . .</p>
+					 		 <button type="submit"><i class="fa fa-search"></i></button>
+					</form>
+				</div>
+			</div>	
+	</div>
+	
+	<!-- Selling, Buying, Exchange, Borrowing -->
+	<div style="background-color:#F0F0F0; text-align: center; align-content: center; align-items: center; align-self: center;">
+	
+		<h1>___________________________________</h1>
+		<h1>Our Services</h1>
+		<h1>_______</h1>
+		<div class="row">
+		  <div class="column">
+				 <a href="/Users/youssefwaheed/Desktop/Spring 22/Software Engineering/Labs/Lab 2/Project/public/AddPage.html">
+				    <img src="https://www.clipartmax.com/png/middle/41-410376_add-item-comments-add-icon-png-white.png" alt="Sell" style="width:100px; height:100px;">
+				 </a>
+			    <h5>____</h5>
+			    <h5>Adding Items</h5>
+		  </div>
+		  <div class="column">
+			  	<a href="/Users/youssefwaheed/Desktop/Spring 22/Software Engineering/Labs/Lab 2/Project/public/ExchangePage.html">
+			       	<img src="https://uxwing.com/wp-content/themes/uxwing/download/19-e-commerce-currency-shopping/change-exchange.png" alt="Exchange" style="width:100px; height:100px;">
+			    </a>
+			    <h5>____</h5>
+			    <h5>Exchanging Items</h5>
+		  </div>
+		  <div class="column">
+				 <a href="/Users/youssefwaheed/Desktop/Spring 22/Software Engineering/Labs/Lab 2/Project/public/BorrowPage.html">
+				    <img src="https://cdn-icons-png.flaticon.com/512/52/52479.png" alt="Borrow" style="width:100px; height:100px;">
+				 </a>
+				 <h5>____</h5>
+				 <h5>Borrowing Items</h5>
+		  </div>
+		  <div class="column">
+				 <a href="/Users/youssefwaheed/Desktop/Spring 22/Software Engineering/Labs/Lab 2/Project/public/BuyPage.html">
+				    <img src="https://icon-library.com/images/buy-icon-png/buy-icon-png-19.jpg" alt="Buy" style="width:100px; height:100px;">
+				 </a>
+			     <h5>____</h5>
+			     <h5>Buying Items</h5>
+		  </div>
+		</div>
+	 </div>
+	 
+	 <!-- Recommended Cards-->
+	 <div style="background-color:#F0F0F0; text-align: center;">
+	 	<h1>___________________________________</h1>
+	 	<h1>We Recommend </h1>
+	 	<h6>Checkout out our recommend list where we encourage you to make full use of our recommendations </h6>
+		<h1>_______</h1>
+		
+			<div class="card-deck">
+			  <div class="card">
+		    	  <a href="/Users/youssefwaheed/Desktop/Spring 22/Software Engineering/Labs/Lab 2/Project/public/NewReleased.html">
+			     	 <img src="https://www.creative-dots.com/wp-content/uploads/2021/08/p-launch.png" alt="Avatar" style="width:200px;height:200px;">
+			      </a>
+				    <div class="card-body">
+				      <h5 class="card-title">Newly Released</h5>
+				      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+				      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+				    </div>
+			  </div>
+			  <div class="card">
+		    	  <a href="/Users/youssefwaheed/Desktop/Spring 22/Software Engineering/Labs/Lab 2/Project/public/OffersPage.html">
+			     	 <img src="https://cdn.iconscout.com/icon/free/png-256/offers-1795319-1522583.png" alt="Avatar"style="width:width:200px;height:200px;">
+			      </a>
+				    <div class="card-body">
+				      <h5 class="card-title">Offers</h5>
+				      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+				      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+				    </div>
+			  </div>
+			  <div class="card">
+		    	<a href="/Users/youssefwaheed/Desktop/Spring 22/Software Engineering/Labs/Lab 2/Project/public/SuggestionPage.html">
+			     	 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk9ZSKl9IQ8LrO2ZSeZSLqenUB-BUwSEA1AMQYYScVAj1WiCHGcU7kDiNCQ4H7PDTEk20&usqp=CAU" alt="Avatar" style="width:200px;height:200px;">
+			     </a>
+				    <div class="card-body">
+				      <h5 class="card-title">Suggestion Box</h5>
+				      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+				      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+				    </div>
+			  </div>
+			</div>
+	 </div>
+	
+	<!-- Fun facts Slots -->
+	<div style="color:black;  text-align: center; background-color:#F0F0F0;">
+		<h1>___________________________________</h1>
+		<h1>Our Journey So Far</h1>
+		<h6>We have been able to accomplish all those achievements in such a small period of time, all thanks to you guys !!</h6>
+		<h1>_______</h1>
+			<div class="row">
+			  <div class="column">
+			  		<h1>1000+</h1>
+				    <h5>__________</h5>
+				    <h5>Books Available</h5>
+			  </div>
+			  <div class="column">
+			  		<h1>350+</h1>
+				    <h5>__________</h5>
+				    <h5>Notes Available</h5>
+			  </div>
+			  <div class="column">
+			 		 <h1>80+</h1>
+					 <h5>__________</h5>
+					 <h5>Subjects</h5>
+			  </div>
+			  <div class="column">
+			  		<h1>270+</h1>
+				     <h5>__________</h5>
+				     <h5>Transactions</h5>
+			  </div>
+		</div>	
+		<h1>___________________________________</h1>
+	</div>
+	
+	<!-- NewLetter -->
+	
+    <div  style="color:black;  text-align: center; background-color:#F0F0F0;">
+    	<div style="background-color: black ;  color:White; " class = "jumbotron" style = "height: 150px;  padding: 1.5em 1.5em;" >
+      		 <h3> Get The Latest Updates From EBN </h3>
+      		 <p>Subscribe to our Newsletter now.</p>
+				<input type="text" placeholder="Enter Your Email Address" name="subject"  style= "width : 400px;">
+				<p>Copyright &copy EBN 2022</p><br>
+                   <p>
+            			 <img class = "align-self-start mr-3 rounded-circle" src="http://auscse.com/main/images/email.png" width = 50px>
+            			 <img class = "align-self-start mr-3 rounded-circle" src="http://auscse.com/main/images/website.png" width = 50px>
+            			 <img class = "align-self-start mr-3 rounded-circle" src="http://auscse.com/main/images/facebook.png" width = 50px>
+            			 <img class = "align-self-start mr-3 rounded-circle" src="http://auscse.com/main/images/twitter.png" width = 50px>
+            			 <img class = "align-self-start mr-3 rounded-circle" src="http://auscse.com/main/images/linkedin.png" width = 50px>
+            	  </p>  
+    	</div>
+	</div>
+	
+</body>
+
+</html>
